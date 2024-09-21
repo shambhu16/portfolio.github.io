@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sam's portfolio</title>
+    <!-- style page -->
+    <link rel="stylesheet" href="./src/style.css">
+    
+<!-- font awesome -->
+<script src="https://kit.fontawesome.com/7311882d83.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+            <img src="./assets/images/logo.png" alt="logo" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa fa-times fas" onclick="closemenu()" aria-hidden="true"></i>
+            </ul>
+            <i class="fa fa-bars fas" onclick="openmenu()" aria-hidden="true"></i>
+        </nav>
+        <div class="header-text">
+            <p>Full Stack Web Developer</p>
+            <h1>Hello, i'm <br><span> Shambhu Chaupal </span> </h1>
+        </div>
+       
+        </div>
+    </div>
+    <!-- *************ABOUT**************** -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./assets/images/user.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Passionate about exploring new technologies and techniwues to improve web development practices.Excited to leverage my skills and knowledge to contribute to a dynamic and collavorative team.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links " onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links "onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills" >
+                        <ul>
+                            <li><span>Full Stack Web Development</span><br>Design Web interfaces <br>database</li>
+                            <li><span>HTML CSS JAVASCRIPT REACT MYSQL MONGODB MONGOES NODE.JS TAILWIND CSS</span></li>
+                            <li><span>Web Designer</span><br>Design Web/App interfaces</li>
+                            <li><span>Web Developer</span><br>Design Web/App interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="experience">
+                        <ul>
+                            <!-- <li><span>UI?ux</span><br>Design Web/App interfaces</li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.Tech</span><br>Computer Science And Engineering</li>
+                            <li><span>12th</span><br>Physics, Chemistry, Mathematics</li>
+                            <li><span>10th</span><br>Maths,Science,English,Sanskrit,Social Science</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, aliquam. Explicabo numquam perspiciatis maiores temporibus harum aut error, odio voluptatum vel ea. Accusantium nobis amet odio dicta facilis ea perferendis.</p>
+                    <a href="">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, aliquam. Explicabo numquam perspiciatis maiores temporibus harum aut error, odio voluptatum vel ea. Accusantium nobis amet odio dicta facilis ea perferendis.</p>
+                    <a href="">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, aliquam. Explicabo numquam perspiciatis maiores temporibus harum aut error, odio voluptatum vel ea. Accusantium nobis amet odio dicta facilis ea perferendis.</p>
+                    <a href="">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ********Portfolio************* -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./assets/images/work-1.JPG" alt="">
+                    <div class="layer">
+                        <h3>Doctor Appointment website</h3>
+                        <p>Welcome to our website! We are here to provide you with a seamless and convenient experience to schedule doctor appointments. </p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./assets/images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptas culpa labore, corrupti necessitatibus corporis id recusandae illo delectus at.</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./assets/images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptas culpa labore, corrupti necessitatibus corporis id recusandae illo delectus at.</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- link -->
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- *********Contact**************** -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                  <h1 class="sub-title">Contact Me</h1>  
+                  <p><i class="fa fa-paper-plane" aria-hidden="true"></i>sam108raj@gmail.com</p>
+                  <p><i class="fa fa-phone" aria-hidden="true"></i>7319865225</p>
+                  <div class="social-icons">
+                    <a href=""><i class="fa fa-github" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                  </div>
+                  <a href="./assets/images/my-cv.pdf" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-left">
+                    <form action="#" name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" id="" cols="30" rows="4" placeholder="your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button> 
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © <i class="fa fa-heart" aria-hidden="true"></i></p>
+        </div>
+    </div>
+    <!-- script -->
+    <script>
+        let tablinks = document.getElementsByClassName("tab-links");
+        let tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname)
+        {
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+        // for close and open menu
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right ="0"
+
+        }
+        function closemenu(){
+            sidemenu.style.right ="-200px"
+
+        }
+    </script>
+    <!-- google sheet script -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxs2o5WPAWMCK2i7lxPNOedYa8ztIkkGmRk-1BG_IjVnxAGmrUCiEDUdm_3s_wld7MzMg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                // if user click submit the this function is all 
+                msg.innerHTML = "Message Sent Successfully "
+                setTimeout(function(){
+                    msg.innerHTML =""
+                },3000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
